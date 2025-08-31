@@ -1,0 +1,22 @@
+ package practice_application; 
+   import java.util.*; 
+
+public class Practice_Application { 
+
+    public static void main(String[] args) { 
+
+         Scanner input = new Scanner(System.in);
+        int num;
+        System.out.print("Enter number :");
+        num = input.nextInt();
+       
+        int sum = 1;
+        for(int i= num;i>0; --i)
+        {
+            sum = sum*i;
+        
+        }
+        
+        System.out.println(sum);
+    }
+} 
