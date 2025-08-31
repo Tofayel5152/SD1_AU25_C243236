@@ -1,0 +1,53 @@
+package practice_application; 
+   import java.util.*; 
+
+public class Practice_Application { 
+
+    public static void main(String[] args) { 
+
+       Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter numbers:");
+        
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        
+        System.out.println("Operations:");
+        System.out.println("1. +");
+        System.out.println("2. -");
+        System.out.println("3. *");
+        System.out.println("4. /");
+        System.out.println("Enter Your Choice:");
+        int choice = input.nextInt();
+        
+        int ans;
+        
+        switch(choice)
+        {
+            case 1:
+                ans = num1 + num2;
+                System.out.println("Ans = "+ ans);
+                break;
+            case 2:
+                if(num1>num2) ans = num1 - num2;
+                else if(num1<num2) ans = num2 - num1;
+                else ans = 0;
+                System.out.println("Ans = " + ans);
+                break;
+            case 3:
+                ans = num1*num2;
+                System.out.println("Ans = " + ans);
+                break;
+            case 4:
+                double anss = 0;
+                if(num1>num2) anss = num1 / (double)num2;
+                else if(num1<num2) anss = num2 / (double)num1;
+                else anss = 1;
+                System.out.println("Ans = " + anss);
+                break;
+            default:
+                System.out.println("Choice out of bound!");
+                break;
+        }
+    }
+} 
