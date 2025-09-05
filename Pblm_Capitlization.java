@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Capitlization {
+public class Pblm_Capitlization {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -24,4 +24,5 @@ public class Capitlization {
         System.out.println("Capitalized String: " + cStr);
 
     }
+
 }
