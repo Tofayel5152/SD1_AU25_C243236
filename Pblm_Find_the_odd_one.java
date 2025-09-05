@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class Find_the_odd_one {
+public class Pblm_Find_the_odd_one {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -19,4 +19,5 @@ public class Find_the_odd_one {
             System.out.println(b + " is the odd one");
 
     }
+
 }
