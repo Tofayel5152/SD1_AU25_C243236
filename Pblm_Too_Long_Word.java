@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class Too_Long_Word {
+public class Pblm_Too_Long_Word {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -16,5 +16,6 @@ public class Too_Long_Word {
             System.out.println(s);
 
     }
+
 
 }
